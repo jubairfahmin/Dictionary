@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:black;
+}
+
+.navbar{
+    
+    display:flex;
+    align-items : center ;
+    justify-content : center ;
+    background-color :#ff0034;
+}
+h1{
+    color:white;
+    margin:10px;
+    
+}
+.searchbar{
+    display:flex;
+    align-items : center ;
+    justify-content : center;
+    margin-top :50px;
+}
+
+input{
+    height:30px;
+    width:340px;
+}
+button{
+    margin-left :3px;
+    padding:3px;
+}
+
+.meaningbox{
+    background-color:blue;
+    color : white;
+    min-height:400px;
+    width:100vw;
+    margin-top :20px;
+    padding:10px;
+    display :flex;
+    align-items : center ;
+    justify-content : center ;
+    flex-direction :column;
+    overflow :scroll;
+    position : relative ;
+}
+.reload{
+    position : absolute ;
+    top:5px;
+    right:20px;
+    opacity :0;
+}
+p{
+    font-size :20px;
+    text-align :center;
+}
+
+span{
+    font-size :18px;
+}
+
+ol li{
+    font-size :15px;
+    gap:20px;
+    text-align :center;
+    margin-top :10px;
+    list-style:none;
+}
